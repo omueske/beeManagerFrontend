@@ -8,6 +8,7 @@
         <locationTable
           v-if="showLocationTable"
           v-model="showNewLocationButton"
+          @save-btn="toggleNewLocationButton"
         />
         <v-btn
           class="ma-2"
@@ -32,6 +33,7 @@
               showNewLocationForm = !showNewLocationForm
               showLocationTable = !showLocationTable
               newLocation = {}
+              showNewLocationButton = !showNewLocationButton
             "
           >
             Abbrechen
@@ -64,6 +66,9 @@ export default {
       this.addLocation(this.newLocation)
       this.showNewLocationForm = false
       this.showLocationTable = true
+    },
+    toggleNewLocationButton(value) {
+      this.showNewLocationButton = value
     }
   }
 }

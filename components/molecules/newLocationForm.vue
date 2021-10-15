@@ -65,7 +65,9 @@ export default {
   },
   mounted() {
     this.$nextTick(function() {
-      this.newLocationForm = JSON.parse(JSON.stringify(this.selectedLocation))
+      if (this.selectedLocation) {
+        this.newLocationForm = JSON.parse(JSON.stringify(this.selectedLocation))
+      }
     })
   }
 }

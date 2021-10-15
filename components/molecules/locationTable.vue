@@ -7,7 +7,13 @@
       item-key="_id"
     >
       <template v-slot:[`item.actions`]="{ item }">
-        <v-btn class="ma-2" @click="updateLoc(item._id)">
+        <v-btn
+          class="ma-2"
+          @click="
+            updateLoc(item._id)
+            $emit('save-btn', false)
+          "
+        >
           <v-icon dark>
             mdi-wrench
           </v-icon>
@@ -19,14 +25,32 @@
         </v-btn>
       </template>
     </v-data-table>
-    <newLocationForm v-if="showLocationForm" />
+    <newLocationForm v-if="showLocationForm" v-model="updateLocationObj" />
+
+    <v-btn
+      v-if="showLocationForm"
+      :disabled="Object.keys(updateLocationObj).length == 0"
+      class="ma-2"
+      color="success"
+      @click="
+        saveLocation()
+        $emit('save-btn', true)
+      "
+    >
+      Speichern
+    </v-btn>
     <v-btn
       v-if="showLocationForm"
       class="ma-2"
-      color="success"
-      @click="saveLocation()"
+      @click="
+        showLocationTable = !showLocationTable
+        showLocationForm = !showLocationForm
+        $emit('save-btn', true)
+        setSelectedLocation({})
+        updateLocationObj = {}
+      "
     >
-      Speichern
+      Abbrechen
     </v-btn>
   </div>
 </template>
@@ -48,6 +72,8 @@ export default {
   data: () => ({
     showLocationTable: true,
     showLocationForm: false,
+    updateLocationObj: {},
+
     headers: [
       {
         text: 'LocationId',
@@ -64,18 +90,22 @@ export default {
   }),
 
   methods: {
-    ...mapActions('locations', ['deleteLocation', 'setSelectedLocation']),
+    ...mapActions('locations', [
+      'deleteLocation',
+      'setSelectedLocation',
+      'updateLocation'
+    ]),
     updateLoc(id) {
       console.log('Button clicked with id ' + id)
       this.setSelectedLocation(id)
       this.showLocationForm = true
       this.showLocationTable = false
-      this.$emit('click', this.showLocationTable)
     },
     saveLocation() {
-      this.location(this.location)
+      this.updateLocation(this.updateLocationObj)
       this.showLocationForm = false
       this.showLocationTable = true
+      this.setSelectedLocation({})
     }
   }
 }

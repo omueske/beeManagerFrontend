@@ -80,13 +80,13 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Standorte',
+          to: '/locations'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Standorte',
-          to: '/locations'
+          title: 'Völker',
+          to: '/hives'
         }
       ],
       miniVariant: false,
@@ -101,11 +101,13 @@ export default {
     })
   },
   methods: {
-    ...mapActions('locations', ['loadLocations', 'setSelectedLocation'])
+    ...mapActions('locations', ['loadLocations', 'setSelectedLocation']),
+    ...mapActions('hives', ['loadHives', 'setSelectedHive'])
   },
   mounted: function() {
     this.setSelectedLocation(null)
     this.loadLocations()
+    this.loadHives()
   }
 }
 </script>

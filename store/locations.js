@@ -1,6 +1,6 @@
 export const state = () => ({
   selectedLocation: Object,
-  locationList: [],
+  locationList: [{}],
   newLocation: {}
 })
 
@@ -29,11 +29,9 @@ export const mutations = {
     state.locationList.splice(delLocation, 1)
   },
 
-  UPDATE_BEEHIVE(state, payload) {
-    const updateLocation = state.locationList.findIndex(
-      (x) => x._id === payload._id
-    )
-    state.locationList[updateLocation] = payload
+  UPDATE_LOCATION(state, payload) {
+    const location = state.locationList.find((q) => q._id === payload._id)
+    Object.assign(location, payload)
   }
 }
 export const actions = {
@@ -68,12 +66,12 @@ export const actions = {
   },
   async updateLocation({ commit }, payload) {
     await this.$axios
-      .put(`/api/v1/locations/${payload._id}`, payload)
+      .patch(`/api/v1/locations/${payload._id}`, payload)
       .then((res) => {
-        if (res.status == 200) {
+        if (res.status == 201) {
           commit('UPDATE_LOCATION', payload)
         } else {
-          console.log(res.status)
+          console.log(res)
         }
       })
   }
