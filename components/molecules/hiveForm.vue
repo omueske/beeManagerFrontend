@@ -10,12 +10,22 @@
         item-value="_id"
         dense
       />
-      <v-select :items="numbers" v-model="hive.number" label="Nummer" dense />
+      <v-select
+        :items="numbers"
+        v-model="hive.number"
+        label="Nummer"
+        dense
+        @change="handleInput()"
+      />
       <v-text-field v-model="hive.name" label="Name" @input="handleInput()" />
-      <v-text-field
+      <v-select
+        :items="stati"
+        item-text="name"
+        item-value="status"
         v-model="hive.status"
         label="Status"
-        @input="handleInput()"
+        @change="handleInput()"
+        dense
       />
       <v-select
         v-model="hive.queens"
@@ -27,6 +37,7 @@
         multiple
         chips
         persistent-hint
+        @change="handleInput()"
       />
       <v-text-field
         v-model="hive.comment"
@@ -49,6 +60,12 @@ export default {
       { _id: '12ghfgkjhzf', name: 'Test Queen1' },
       { _id: 'hgjhgjhfhfzt', name: 'Test Queen2' },
       { _id: 'gzjguzfztfzft', name: 'Test Queen3' }
+    ],
+    stati: [
+      { status: 'active', name: 'aktiv' },
+      { status: 'inactive', name: 'inaktiv' },
+      { status: 'empty', name: 'leer' },
+      { status: 'dead', name: 'Tot' }
     ],
     numbers: Array.from(Array(100).keys())
   }),
