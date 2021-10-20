@@ -1,8 +1,19 @@
 <template
   ><div>
-    <v-data-table :headers="headers" :items="hiveList" item-key="_id">
+    <v-data-table
+      v-if="showHiveTable"
+      :headers="headers"
+      :items="hiveList"
+      item-key="_id"
+    >
       <template v-slot:[`item.actions`]="{ item }">
-        <v-btn class="ma-2">
+        <v-btn
+          class="ma-2"
+          @click="
+            updateH(item._id)
+            $emit('save-btn', false)
+          "
+        >
           <v-icon dark>
             mdi-wrench
           </v-icon>
@@ -14,11 +25,32 @@
         </v-btn>
       </template>
     </v-data-table>
+    <hiveForm v-if="showHiveForm" v-model="updateHiveObj" />
 
-    <v-btn class="ma-2" color="success">
+    <v-btn
+      v-if="showHiveForm"
+      class="ma-2"
+      :disabled="Object.keys(updateHiveObj).length == 0"
+      color="success"
+      @click="
+        saveHive()
+        $emit('save-btn', true)
+      "
+    >
       Speichern
     </v-btn>
-    <v-btn class="ma-2">
+
+    <v-btn
+      class="ma-2"
+      v-if="showHiveForm"
+      @click="
+        showHiveTable = !showHiveTable
+        showHiveForm = !showHiveForm
+        $emit('save-btn', true)
+        setSelectedHive({})
+        updateHiveObj = {}
+      "
+    >
       Abbrechen
     </v-btn>
   </div>
@@ -59,7 +91,7 @@ export default {
 
   methods: {
     ...mapActions('hives', ['deleteHive', 'setSelectedHive', 'updateHive']),
-    updateLoc(id) {
+    updateH(id) {
       console.log('Button clicked with id ' + id)
       this.setSelectedHive(id)
       this.showHiveForm = true

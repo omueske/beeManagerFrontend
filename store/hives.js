@@ -1,7 +1,12 @@
 export const state = () => ({
   selectedHive: Object,
   hiveList: [{}],
-  newHive: {}
+  newHive: {},
+  components: {
+    hiveTable: true,
+    hiveForm: false,
+    newHiveButton: true,
+  }
 })
 
 export const mutations = {
@@ -23,6 +28,7 @@ export const mutations = {
   },
 
   DELETE_HIVE(state, hiveId) {
+    console.log("DELETE", hiveId)
     const hive = state.hiveList.findIndex((x) => x._id === hiveId)
     state.hiveList.splice(hive, 1)
   },

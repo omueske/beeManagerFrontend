@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Neues Volk</h2>
+    <h2>{{ headline }}</h2>
     <v-form ref="form">
       <v-select
         :items="locationList"
@@ -12,6 +12,11 @@
       />
       <v-select :items="numbers" v-model="hive.number" label="Nummer" dense />
       <v-text-field v-model="hive.name" label="Name" @input="handleInput()" />
+      <v-text-field
+        v-model="hive.status"
+        label="Status"
+        @input="handleInput()"
+      />
       <v-select
         v-model="hive.queens"
         :items="queens"
@@ -38,6 +43,7 @@ import { mapState } from 'vuex'
 export default {
   prop: ['value'],
   data: () => ({
+    headline: 'Neues Volk',
     hive: {},
     queens: [
       { _id: '12ghfgkjhzf', name: 'Test Queen1' },
@@ -48,7 +54,8 @@ export default {
   }),
   computed: {
     ...mapState({
-      locationList: (state) => state.locations.locationList
+      locationList: (state) => state.locations.locationList,
+      selectedHive: (state) => state.hives.selectedHive
     })
   },
   methods: {
@@ -56,13 +63,16 @@ export default {
       console.log(e)
       this.$emit('input', this.hive)
     }
+  },
+  mounted() {
+    this.$nextTick(function() {
+      if (this.selectedHive) {
+        this.headline = 'Volk bearbeiten'
+        console.log('SelectedHive', this.selectedHive)
+        this.hive = JSON.parse(JSON.stringify(this.selectedHive))
+        console.log('Hive', this.hive)
+      }
+    })
   }
-  // mounted() {
-  //   this.$nextTick(function() {
-  //     if (this.selectedLocation) {
-  //       this.newLocationForm = JSON.parse(JSON.stringify(this.selectedLocation))
-  //     }
-  //   })
-  // }
 }
 </script>
