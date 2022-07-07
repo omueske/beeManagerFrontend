@@ -1,6 +1,7 @@
 <template>
   <div>
-    <AtomsTheNavBar />
-    <hive />
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
   </div>
 </template>

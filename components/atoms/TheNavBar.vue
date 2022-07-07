@@ -21,20 +21,21 @@
       </v-app-bar>
 
       <v-navigation-drawer v-model="drawer" bottom temporary>
-        <v-list :items="items"></v-list>
+        <v-list :items="items" :nav="true"></v-list>
       </v-navigation-drawer>
 
       <v-main>
-        <v-card-text>
+        <!-- <v-card-text>
           The navigation drawer will appear from the bottom on smaller size
           screens.
-        </v-card-text>
+        </v-card-text> -->
       </v-main>
     </v-layout>
   </v-card>
 </template>
 
 <script>
+
 export default defineComponent({
   setup() {
     return { test: "test" };
@@ -44,21 +45,22 @@ export default defineComponent({
     group: null,
     items: [
       {
-        title: "Foo",
-        value: "foo",
+        disabled: true,
+        title: "Standorte",
+        value: "locations",
+        props: {
+          to: "/locations",
+        }
+        
       },
       {
-        title: "Bar",
-        value: "bar",
+        title: "Völker",
+        value: "Hives",
+        props: {
+          to: "/hives"
+        }
       },
-      {
-        title: "Fizz",
-        value: "fizz",
-      },
-      {
-        title: "Buzz",
-        value: "buzz",
-      },
+
     ],
   }),
 
@@ -67,5 +69,10 @@ export default defineComponent({
       this.drawer = false;
     },
   },
+  methods: {
+    olliTest(value) {
+      console.log("BLUBB") + value
+    }}
+  
 });
 </script>

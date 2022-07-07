@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry
+// Request: /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/paths.mjs ($id_543b474c)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/paths.mjs ($id_24d38faf)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/css.mjs ($id_f6a1ed72)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/root-component.mjs ($id_003efb55)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/app-component.mjs ($id_290f7361)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/css.mjs ($id_b72ab17b)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/root-component.mjs ($id_5b57ef01)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/app-component.mjs ($id_ec906849)
 // --------------------
-const $id_e1a21666 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_2e86d42c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ohmyfetch/dist/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: /node_modules/vue/dist/vue.cjs.js
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
@@ -103,13 +103,21 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_511b441d)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/components.plugin.mjs ($id_37336772)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/components.plugin.mjs ($id_80a47182)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_b2a29d6f)
-// - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_7fe121f6)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs ($id_7d1649c7)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
+// - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_80f433aa)
+// - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
+// - /components/hive.vue ($id_8d839619)
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/index.vue ($id_cca58e97)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs ($id_15c15290)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /node_modules/vuetify/lib/composables/defaults.mjs ($id_66a5cfcd)
 // - /node_modules/vuetify/lib/util/helpers.mjs ($id_8592ff26)
@@ -271,19 +279,21 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/vuetify/lib/components/VTimeline/VTimelineDivider.mjs ($id_b032c3c7)
 // - /node_modules/vuetify/lib/components/VTooltip/VTooltip.mjs ($id_ba2985bb)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs ($id_0d715836)
 // - /components/atoms/TheNavBar.vue ($id_b2a790cb)
-// - /components/hive.vue ($id_8d839619)
+// - /layouts/default.vue ($id_7689e89d)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
 // --------------------
 const $id_60f0615f = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/vue/dist/vue.cjs.js")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/vue/dist/vue.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -292,19 +302,19 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/vue/dist/vue.c
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/vue/dist/vue.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/vue/dist/vue.cjs.js\".")
   })
 
 
 // --------------------
 // Request: /node_modules/ohmyfetch/dist/index.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // Dependencies: 
 
 // --------------------
 const $id_780217c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ohmyfetch/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/ohmyfetch/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -313,18 +323,18 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ohmyfetch/dist
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/ohmyfetch/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/ohmyfetch/dist/index.mjs\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/paths.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // --------------------
-const $id_543b474c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_24d38faf = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
 const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]}}
@@ -345,14 +355,14 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 // --------------------
 // Request: /node_modules/ufo/dist/index.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/paths.mjs ($id_543b474c)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/paths.mjs ($id_24d38faf)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
-// - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_7fe121f6)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
 const $id_614de060 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ufo/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/ufo/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -361,14 +371,14 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ufo/dist/index
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/ufo/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/ufo/dist/index.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_0063df1b)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_7d872108)
@@ -381,10 +391,12 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ufo/dist/index
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_9871bba0)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
-// - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_7fe121f6)
+// - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // - /plugins/vuetify.js ($id_5f787637)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/index.mjs ($id_b067a79a)
@@ -416,7 +428,6 @@ Object.defineProperty(__vite_ssr_exports__, "isVue3", { enumerable: true, config
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/nuxt/dist/app/compat/legacy-app.mjs ($id_a48341bc)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
-// - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_7fe121f6)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/hookable/dist/index.mjs ($id_a2c811c4)
@@ -580,7 +591,7 @@ function defineGetter(obj, key, val) {
 
 // --------------------
 const $id_a2c811c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/hookable/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/hookable/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -589,7 +600,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/hookable/dist/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/hookable/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/hookable/dist/index.mjs\".")
   })
 
 
@@ -601,7 +612,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/hookable/dist/
 
 // --------------------
 const $id_a569ca2d = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/unctx/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/unctx/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -610,7 +621,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/unctx/dist/ind
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/unctx/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/unctx/dist/index.mjs\".")
   })
 
 
@@ -742,7 +753,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 
 // --------------------
 const $id_39e12da7 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/unenv/runtime/mock/proxy.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/unenv/runtime/mock/proxy.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -751,7 +762,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/unenv/runtime/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/unenv/runtime/mock/proxy.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/unenv/runtime/mock/proxy.mjs\".")
   })
 
 
@@ -882,11 +893,13 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Request: /node_modules/vue-router/dist/vue-router.cjs.js
 // Parents: 
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // Dependencies: 
 
 // --------------------
 const $id_f9a4a698 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/vue-router/dist/vue-router.cjs.js")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/vue-router/dist/vue-router.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -895,7 +908,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/vue-router/dis
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/vue-router/dist/vue-router.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/vue-router/dist/vue-router.cjs.js\".")
   })
 
 
@@ -1211,7 +1224,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, 
 
 // --------------------
 const $id_b1b82cf3 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ohash/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/ohash/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1220,7 +1233,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/ohash/dist/ind
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/ohash/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/ohash/dist/index.mjs\".")
   })
 
 
@@ -1313,7 +1326,7 @@ function writeServerCookie(event, name, value, opts = {}) {
 
 // --------------------
 const $id_f4975261 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/cookie-es/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/cookie-es/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1322,7 +1335,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/cookie-es/dist
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/cookie-es/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/cookie-es/dist/index.mjs\".")
   })
 
 
@@ -1331,12 +1344,12 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/cookie-es/dist
 // Parents: 
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_511b441d)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_db4d90a8)
-// - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_7fe121f6)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
 const $id_57d7ded6 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/h3/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/h3/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1345,7 +1358,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/h3/dist/index.
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/h3/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/h3/dist/index.mjs\".")
   })
 
 
@@ -1357,7 +1370,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/h3/dist/index.
 
 // --------------------
 const $id_03d15ecd = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/destr/dist/index.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/destr/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1366,7 +1379,7 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/destr/dist/ind
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/destr/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/destr/dist/index.mjs\".")
   })
 
 
@@ -1622,7 +1635,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Request: /node_modules/nuxt/dist/head/runtime/index.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // --------------------
@@ -1672,7 +1685,7 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 
 // --------------------
 const $id_852b06a2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/@vue/shared/dist/shared.cjs.js")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/@vue/shared/dist/shared.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1681,19 +1694,19 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/@vue/shared/di
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/@vue/shared/dist/shared.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/@vue/shared/dist/shared.cjs.js\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/css.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // Dependencies: 
 // - /node_modules/vuetify/lib/styles/main.sass ($id_7fc1a351)
 // - /node_modules/@mdi/font/css/materialdesignicons.css ($id_84361c33)
 // --------------------
-const $id_f6a1ed72 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b72ab17b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vuetify/lib/styles/main.sass");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@mdi/font/css/materialdesignicons.css");
@@ -1704,7 +1717,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@mdi/font
 // --------------------
 // Request: /node_modules/vuetify/lib/styles/main.sass
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/css.mjs ($id_f6a1ed72)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/css.mjs ($id_b72ab17b)
 // Dependencies: 
 
 // --------------------
@@ -1716,7 +1729,7 @@ __vite_ssr_exports__.default = "@charset \"UTF-8\";@-webkit-keyframes v-shake{59
 // --------------------
 // Request: /node_modules/@mdi/font/css/materialdesignicons.css
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/css.mjs ($id_f6a1ed72)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/css.mjs ($id_b72ab17b)
 // Dependencies: 
 
 // --------------------
@@ -1726,30 +1739,30 @@ __vite_ssr_exports__.default = "@font-face{font-family:\"Material Design Icons\"
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_9871bba0)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/components.plugin.mjs ($id_37336772)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/components.plugin.mjs ($id_80a47182)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
-// - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_7fe121f6)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs ($id_7d1649c7)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs ($id_15c15290)
 // - /plugins/vuetify.js ($id_5f787637)
 // --------------------
-const $id_77b92261 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_32118552 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/plugin.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/router.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/router.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs");
 
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/plugins/vuetify.js");
 
@@ -1768,7 +1781,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -1789,13 +1802,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_37336772 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_80a47182 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -1814,7 +1827,7 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2297,7 +2310,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 
 // --------------------
 const $id_bafd87f1 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/node_modules/defu/dist/defu.mjs")
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/nuxt/node_modules/defu/dist/defu.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2306,20 +2319,20 @@ import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/node_modu
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/node_modules/defu/dist/defu.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/nuxt/node_modules/defu/dist/defu.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_b2a29d6f)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/meta.config.mjs ($id_88c6ad8d)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/meta.config.mjs ($id_0474feb6)
 // --------------------
 const $id_a2650341 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2330,7 +2343,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   [__vite_ssr_import_4__.default.mixinKey]() {
@@ -2569,164 +2582,141 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // Dependencies: 
 
 // --------------------
-const $id_88c6ad8d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_0474feb6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
 
 // --------------------
-// Request: /node_modules/nuxt/dist/app/plugins/router.mjs
+// Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /node_modules/ufo/dist/index.mjs ($id_614de060)
+// - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
 // - /node_modules/h3/dist/index.mjs ($id_57d7ded6)
+// - /node_modules/ufo/dist/index.mjs ($id_614de060)
+// - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/router.options.mjs ($id_0811f5fe)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/middleware.mjs ($id_b2d7d188)
 // --------------------
-const $id_7fe121f6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a090977b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue-router/dist/vue-router.cjs.js");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/h3/dist/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/nuxt.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/page.mjs");
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-function getRouteFromPath(fullPath) {
-  if (typeof fullPath === "object") {
-    throw new TypeError("[nuxt] Route location object cannot be resolved when vue-router is disabled (no pages).");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/router.options.mjs");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/middleware.mjs");
+
+function createCurrentLocation(base, location) {
+  const { pathname, search, hash } = location;
+  const hashPos = base.indexOf("#");
+  if (hashPos > -1) {
+    const slicePos = hash.includes(base.slice(hashPos)) ? base.slice(hashPos).length : 1;
+    let pathFromHash = hash.slice(slicePos);
+    if (pathFromHash[0] !== "/") {
+      pathFromHash = "/" + pathFromHash;
+    }
+    return __vite_ssr_import_3__.withoutBase(pathFromHash, "");
   }
-  const url = __vite_ssr_import_1__.parseURL(fullPath.toString());
-  return {
-    path: url.pathname,
-    fullPath,
-    query: __vite_ssr_import_1__.parseQuery(url.search),
-    hash: url.hash,
-    params: {},
-    name: void 0,
-    matched: [],
-    redirectedFrom: void 0,
-    meta: {},
-    href: fullPath
-  };
+  const path = __vite_ssr_import_3__.withoutBase(pathname, base);
+  return path + search + hash;
 }
-__vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
-  const routes = [];
-  const hooks = {
-    "navigate:before": [],
-    "resolve:before": [],
-    "navigate:after": [],
-    error: []
-  };
-  const registerHook = (hook, guard) => {
-    hooks[hook].push(guard);
-    return () => hooks[hook].splice(hooks[hook].indexOf(guard), 1);
-  };
-  const route = __vite_ssr_import_0__.reactive(getRouteFromPath(false ? window.location.href : nuxtApp.ssrContext.url));
-  async function handleNavigation(url, replace) {
-    try {
-      const to = getRouteFromPath(url);
-      if (false && !nuxtApp.isHydrating) {
-        await __vite_ssr_import_4__.callWithNuxt(nuxtApp, __vite_ssr_import_5__.clearError);
-      }
-      for (const middleware of hooks["navigate:before"]) {
-        const result = await middleware(to, route);
-        if (result === false || result instanceof Error) {
-          return;
-        }
-        if (result) {
-          return handleNavigation(result, true);
-        }
-      }
-      for (const handler of hooks["resolve:before"]) {
-        await handler(to, route);
-      }
-      Object.assign(route, to);
-      if (false) {
-        window.history[replace ? "replaceState" : "pushState"]({}, "", url);
-      }
-      for (const middleware of hooks["navigate:after"]) {
-        await middleware(to, route);
-      }
-    } catch (err) {
-      if (true && !hooks.error.length) {
-        console.warn("No error handlers registered to handle middleware errors. You can register an error handler with `router.onError()`", err);
-      }
-      for (const handler of hooks.error) {
-        await handler(err);
-      }
-    }
-  }
-  const router = {
-    currentRoute: route,
-    isReady: () => Promise.resolve(),
-    options: {},
-    install: () => Promise.resolve(),
-    push: (url) => handleNavigation(url, false),
-    replace: (url) => handleNavigation(url, true),
-    back: () => window.history.go(-1),
-    go: (delta) => window.history.go(delta),
-    forward: () => window.history.go(1),
-    beforeResolve: (guard) => registerHook("resolve:before", guard),
-    beforeEach: (guard) => registerHook("navigate:before", guard),
-    afterEach: (guard) => registerHook("navigate:after", guard),
-    onError: (handler) => registerHook("error", handler),
-    resolve: getRouteFromPath,
-    addRoute: (parentName, route2) => {
-      routes.push(route2);
-    },
-    getRoutes: () => routes,
-    hasRoute: (name) => routes.some((route2) => route2.name === name),
-    removeRoute: (name) => {
-      const index = routes.findIndex((route2) => route2.name === name);
-      if (index !== -1) {
-        routes.splice(index, 1);
-      }
-    }
-  };
-  nuxtApp.vueApp.component("RouterLink", {
-    functional: true,
-    props: { to: String },
-    setup: (props, { slots }) => () => __vite_ssr_import_0__.h("a", { href: props.to, onClick: (e) => {
-      e.preventDefault();
-      router.push(props.to);
-    } }, slots)
+__vite_ssr_exports__.default = __vite_ssr_import_5__.defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.component("NuxtPage", __vite_ssr_import_4__.default);
+  nuxtApp.vueApp.component("NuxtNestedPage", __vite_ssr_import_4__.default);
+  nuxtApp.vueApp.component("NuxtChild", __vite_ssr_import_4__.default);
+  const { baseURL } = __vite_ssr_import_5__.useRuntimeConfig().app;
+  const routerHistory = false ? __vite_ssr_import_1__.createWebHistory(baseURL) : __vite_ssr_import_1__.createMemoryHistory(baseURL);
+  const router = __vite_ssr_import_1__.createRouter({
+    ...__vite_ssr_import_7__.default,
+    history: routerHistory,
+    routes: __vite_ssr_import_6__.default
   });
-  if (false) {
-    window.addEventListener("popstate", (event) => {
-      const location = event.target.location;
-      router.replace(location.href.replace(location.origin, ""));
-    });
+  nuxtApp.vueApp.use(router);
+  const previousRoute = __vite_ssr_import_0__.shallowRef(router.currentRoute.value);
+  router.afterEach((_to, from) => {
+    previousRoute.value = from;
+  });
+  Object.defineProperty(nuxtApp.vueApp.config.globalProperties, "previousRoute", {
+    get: () => previousRoute.value
+  });
+  const route = {};
+  for (const key in router.currentRoute.value) {
+    route[key] = __vite_ssr_import_0__.computed(() => router.currentRoute.value[key]);
   }
-  nuxtApp._route = route;
+  const path = true ? nuxtApp.ssrContext.url : createCurrentLocation(baseURL, window.location);
+  const _activeRoute = __vite_ssr_import_0__.shallowRef(router.resolve(path));
+  const syncCurrentRoute = () => {
+    _activeRoute.value = router.currentRoute.value;
+  };
+  nuxtApp.hook("page:finish", syncCurrentRoute);
+  router.afterEach((to, from) => {
+    if (to.matched[0]?.components?.default === from.matched[0]?.components?.default) {
+      syncCurrentRoute();
+    }
+  });
+  const activeRoute = {};
+  for (const key in _activeRoute.value) {
+    activeRoute[key] = __vite_ssr_import_0__.computed(() => _activeRoute.value[key]);
+  }
+  nuxtApp._route = __vite_ssr_import_0__.reactive(route);
+  nuxtApp._activeRoute = __vite_ssr_import_0__.reactive(activeRoute);
   nuxtApp._middleware = nuxtApp._middleware || {
     global: [],
     named: {}
   };
   router.beforeEach(async (to, from) => {
-    to.meta = __vite_ssr_import_0__.reactive(to.meta || {});
+    to.meta = __vite_ssr_import_0__.reactive(to.meta);
     nuxtApp._processingMiddleware = true;
-    const middlewareEntries = new Set(nuxtApp._middleware.global);
-    for (const middleware of middlewareEntries) {
-      const result = await __vite_ssr_import_4__.callWithNuxt(nuxtApp, middleware, [to, from]);
+    const middlewareEntries = new Set([...__vite_ssr_import_8__.globalMiddleware, ...nuxtApp._middleware.global]);
+    for (const component of to.matched) {
+      const componentMiddleware = component.meta.middleware;
+      if (!componentMiddleware) {
+        continue;
+      }
+      if (Array.isArray(componentMiddleware)) {
+        for (const entry of componentMiddleware) {
+          middlewareEntries.add(entry);
+        }
+      } else {
+        middlewareEntries.add(componentMiddleware);
+      }
+    }
+    if (false && !nuxtApp.isHydrating) {
+      await __vite_ssr_import_5__.callWithNuxt(nuxtApp, __vite_ssr_import_5__.clearError);
+    }
+    for (const entry of middlewareEntries) {
+      const middleware = typeof entry === "string" ? nuxtApp._middleware.named[entry] || await __vite_ssr_import_8__.namedMiddleware[entry]?.().then((r) => r.default || r) : entry;
+      if (true && !middleware) {
+        console.warn(`Unknown middleware: ${entry}. Valid options are ${Object.keys(__vite_ssr_import_8__.namedMiddleware).join(", ")}.`);
+      }
+      const result = await __vite_ssr_import_5__.callWithNuxt(nuxtApp, middleware, [to, from]);
       if (true) {
         if (result === false || result instanceof Error) {
           const error = result || __vite_ssr_import_2__.createError({
             statusMessage: `Route navigation aborted: ${nuxtApp.ssrContext.url}`
           });
-          return __vite_ssr_import_4__.callWithNuxt(nuxtApp, __vite_ssr_import_5__.throwError, [error]);
+          return __vite_ssr_import_5__.callWithNuxt(nuxtApp, __vite_ssr_import_5__.throwError, [error]);
         }
       }
       if (result || result === false) {
@@ -2737,35 +2727,547 @@ __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) 
   router.afterEach(() => {
     delete nuxtApp._processingMiddleware;
   });
-  if (true) {
-    nuxtApp.hooks.hookOnce("app:created", async () => {
-      await router.push(nuxtApp.ssrContext.url);
-      if (route.fullPath !== nuxtApp.ssrContext.url) {
-        await __vite_ssr_import_5__.navigateTo(route.fullPath);
+  nuxtApp.hook("app:created", async () => {
+    router.afterEach((to) => {
+      if (to.matched.length === 0) {
+        __vite_ssr_import_5__.callWithNuxt(nuxtApp, __vite_ssr_import_5__.throwError, [__vite_ssr_import_2__.createError({
+          statusCode: 404,
+          statusMessage: `Page not found: ${to.fullPath}`
+        })]);
+      } else if (true && to.matched[0].name === "404" && nuxtApp.ssrContext) {
+        nuxtApp.ssrContext.res.statusCode = 404;
       }
     });
-  }
-  return {
-    provide: {
-      route,
-      router
+    if (true) {
+      router.push(nuxtApp.ssrContext.url);
+      router.afterEach(async (to) => {
+        if (to.fullPath !== nuxtApp.ssrContext.url) {
+          await __vite_ssr_import_5__.navigateTo(to.fullPath);
+        }
+      });
     }
-  };
+    try {
+      await router.isReady();
+    } catch (error) {
+      __vite_ssr_import_5__.callWithNuxt(nuxtApp, __vite_ssr_import_5__.throwError, [error]);
+    }
+  });
+  return { provide: { router } };
 });
 ;
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs
+// Request: /node_modules/nuxt/dist/pages/runtime/page.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
+// - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_80f433aa)
+// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
+// - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
+// --------------------
+const $id_5fc14cdc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue-router/dist/vue-router.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/utils.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/utils.mjs");
+
+const isNestedKey = Symbol("isNested");
+__vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
+  name: "NuxtPage",
+  props: {
+    pageKey: {
+      type: [Function, String],
+      default: null
+    }
+  },
+  setup(props) {
+    const nuxtApp = __vite_ssr_import_3__.useNuxtApp();
+    const isNested = __vite_ssr_import_0__.inject(isNestedKey, false);
+    __vite_ssr_import_0__.provide(isNestedKey, true);
+    return () => {
+      return __vite_ssr_import_0__.h(__vite_ssr_import_1__.RouterView, {}, {
+        default: (routeProps) => routeProps.Component && __vite_ssr_import_4__._wrapIf(__vite_ssr_import_0__.Transition, routeProps.route.meta.pageTransition ?? defaultPageTransition, __vite_ssr_import_2__.wrapInKeepAlive(routeProps.route.meta.keepalive, isNested ? __vite_ssr_import_0__.h(routeProps.Component, { key: __vite_ssr_import_2__.generateRouteKey(props.pageKey, routeProps) }) : __vite_ssr_import_0__.h(__vite_ssr_import_0__.Suspense, {
+          onPending: () => nuxtApp.callHook("page:start", routeProps.Component),
+          onResolve: () => nuxtApp.callHook("page:finish", routeProps.Component)
+        }, { default: () => __vite_ssr_import_0__.h(routeProps.Component, { key: __vite_ssr_import_2__.generateRouteKey(props.pageKey, routeProps) }) }))).default()
+      });
+    };
+  }
+});
+const defaultPageTransition = { name: "page", mode: "out-in" };
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/pages/runtime/utils.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// --------------------
+const $id_80f433aa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const interpolatePath = (route, match) => {
+  return match.path.replace(/(:\w+)\([^)]+\)/g, "$1").replace(/(:\w+)[?+*]/g, "$1").replace(/:\w+/g, (r) => route.params[r.slice(1)]?.toString() || "");
+};
+const generateRouteKey = (override, routeProps) => {
+  const matchedRoute = routeProps.route.matched.find((m) => m.components.default === routeProps.Component.type);
+  const source = override ?? matchedRoute?.meta.key ?? interpolatePath(routeProps.route, matchedRoute);
+  return typeof source === "function" ? source(routeProps.route) : source;
+};
+Object.defineProperty(__vite_ssr_exports__, "generateRouteKey", { enumerable: true, configurable: true, get(){ return generateRouteKey }});
+const wrapInKeepAlive = (props, children) => {
+  return { default: () => false && props ? __vite_ssr_import_0__.h(__vite_ssr_import_0__.KeepAlive, props === true ? {} : props, children) : children };
+};
+Object.defineProperty(__vite_ssr_exports__, "wrapInKeepAlive", { enumerable: true, configurable: true, get(){ return wrapInKeepAlive }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/components/utils.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// --------------------
+const $id_69c52686 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const Fragment = {
+  setup(_props, { slots }) {
+    return () => slots.default();
+  }
+};
+const _wrapIf = (component, props, slots) => {
+  return { default: () => props ? __vite_ssr_import_0__.h(component, props === true ? {} : props, slots) : __vite_ssr_import_0__.h(Fragment, {}, slots) };
+};
+Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, configurable: true, get(){ return _wrapIf }});
+;
+}
+
+
+// --------------------
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// Dependencies: 
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/index.vue ($id_cca58e97)
+// --------------------
+const $id_23f0431e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/hives.vue?macro=true");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+
+__vite_ssr_exports__.default = [
+  {
+    name: "hives",
+    path: "/hives",
+    file: "/home/oliver/dev/beeManagerFrontend/pages/hives.vue",
+    children: [],
+    meta: __vite_ssr_import_0__.meta,
+    alias: __vite_ssr_import_0__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/hives.vue')
+  },
+  {
+    name: "index",
+    path: "/",
+    file: "/home/oliver/dev/beeManagerFrontend/pages/index.vue",
+    children: [],
+    meta: __vite_ssr_import_1__.meta,
+    alias: __vite_ssr_import_1__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
+  }
+];
+}
+
+
+// --------------------
+// Request: /pages/hives.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// Dependencies: 
+// - /components/hive.vue ($id_8d839619)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_fe14319f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/hive.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_hive = __vite_ssr_import_0__.default
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_hive, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/hives.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/hives.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/hive.vue
+// Parents: 
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/hives.vue ($id_ecc04379)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /store/hives.js ($id_01e486f6)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_8d839619 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/store/hives.js");
+
+
+const _sfc_main = __vite_ssr_import_0__.defineComponent({
+  setup() {
+    const hiveStore = __vite_ssr_import_1__.useHiveStore();
+    hiveStore.fetchHives();
+    // console.log(hiveStore);
+
+    return { hiveStore };
+  },
+});
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${
+    __vite_ssr_import_2__.ssrRenderAttrs(_attrs)
+  }>Anzahl Bienenvölker: ${
+    __vite_ssr_import_2__.ssrInterpolate(_ctx.hiveStore.hiveList.length)
+  }</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/hive.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/hive.vue"]]);
+}
+
+
+// --------------------
+// Request: /store/hives.js
+// Parents: 
+// - /components/hive.vue ($id_8d839619)
+// Dependencies: 
+// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
+// --------------------
+const $id_01e486f6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
+
+
+const useHiveStore = __vite_ssr_import_0__.defineStore({
+  id: 'hive-store',
+  state: () => {
+    return {
+      hiveList: [],
+    }
+  },
+  actions: {
+      async fetchHives() {
+        // First empty the array...
+        this.hiveList = []
+        fetch("http://localhost:5000/api/v1/hives")
+          .then((response) => response.json())
+          .then(({ data }) => (this.hiveList = data))
+          .catch((error) => console.log(error));
+    }
+  },
+  getters: {
+     getHiveList: state => state.hiveList.data,
+  },
+})
+Object.defineProperty(__vite_ssr_exports__, "useHiveStore", { enumerable: true, configurable: true, get(){ return useHiveStore }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/pinia/dist/pinia.mjs
+// Parents: 
+// - /store/hives.js ($id_01e486f6)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs ($id_15c15290)
+// Dependencies: 
+
+// --------------------
+const $id_b1920624 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/pinia/dist/pinia.mjs")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/pinia/dist/pinia.mjs\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/vue/server-renderer/index.js
+// Parents: 
+// - /components/hive.vue ($id_8d839619)
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/index.vue ($id_cca58e97)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
+// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
+// - /layouts/default.vue ($id_7689e89d)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js\".")
+  })
+
+
+// --------------------
+// Request: /@id/plugin-vue:export-helper
+// Parents: 
+// - /components/hive.vue ($id_8d839619)
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/index.vue ($id_cca58e97)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
+// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
+// - /layouts/default.vue ($id_7689e89d)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_bbb863c1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+__vite_ssr_exports__.default = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+}
+;
+}
+
+
+// --------------------
+// Request: /pages/index.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_5dd70240 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<h1${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}>Index page</h1>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/index.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/hives.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// Dependencies: 
+// - /components/hive.vue ($id_8d839619)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_ecc04379 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/hive.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_hive = __vite_ssr_import_0__.default
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_hive, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/hives.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/hives.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/index.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cca58e97 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<h1${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}>Index page</h1>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/router.options.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// Dependencies: 
+
+// --------------------
+const $id_0811f5fe = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const configRouterOptions = {}
+__vite_ssr_exports__.default = {
+...configRouterOptions,
+};
+}
+
+
+// --------------------
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/middleware.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
+// Dependencies: 
+
+// --------------------
+const $id_b2d7d188 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const globalMiddleware = []
+Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
+const namedMiddleware = {}
+Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: true, configurable: true, get(){ return namedMiddleware }});;
+}
+
+
+// --------------------
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
 // - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
 // --------------------
-const $id_7d1649c7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_15c15290 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
 
@@ -2812,8 +3314,8 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs ($id_7d1649c7)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs ($id_15c15290)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // --------------------
@@ -2866,31 +3368,9 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 
 
 // --------------------
-// Request: /node_modules/pinia/dist/pinia.mjs
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs ($id_7d1649c7)
-// - /store/hives.js ($id_01e486f6)
-// Dependencies: 
-
-// --------------------
-const $id_b1920624 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/pinia/dist/pinia.mjs")
-  .then(r => {
-    if (r.default && r.default.__esModule)
-      r = r.default
-    exports.default = r.default
-    ssrExportAll(r)
-  })
-  .catch(e => {
-    console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/pinia/dist/pinia.mjs\".")
-  })
-
-
-// --------------------
 // Request: /plugins/vuetify.js
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_77b92261)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs ($id_32118552)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vuetify/lib/framework.mjs ($id_2c665a6c)
@@ -34897,13 +35377,13 @@ __vite_ssr_exports__.default = Scroll;
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/root-component.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/root-component.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // --------------------
-const $id_003efb55 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_5b57ef01 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -34913,11 +35393,11 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/root-component.mjs ($id_003efb55)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/root-component.mjs ($id_5b57ef01)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/error-component.mjs ($id_a32074ca)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/error-component.mjs ($id_b89b52a4)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -34927,7 +35407,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 // @ts-ignore
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/error-component.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/error-component.mjs");
 
 
 
@@ -34991,18 +35471,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // --------------------
-const $id_a32074ca = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b89b52a4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -35012,7 +35492,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/error-component.mjs ($id_a32074ca)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/error-component.mjs ($id_b89b52a4)
 // Dependencies: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -35097,7 +35577,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -35107,7 +35587,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css ($id_e68b6b38)
@@ -35116,7 +35596,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 const $id_b90d4d0f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -35215,12 +35695,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"C:/Users/mail/dev/beeManagerFrontend/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"/home/oliver/dev/beeManagerFrontend/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs
 // Parents: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -35230,8 +35710,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
 // --------------------
-const $id_9a997424 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_cc36fd8a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
@@ -35331,36 +35812,30 @@ Object.defineProperty(__vite_ssr_exports__, "useAttrs", { enumerable: true, conf
 Object.defineProperty(__vite_ssr_exports__, "useCssModule", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useCssModule }});
 Object.defineProperty(__vite_ssr_exports__, "useCssVars", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useCssVars }});
 Object.defineProperty(__vite_ssr_exports__, "useSlots", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useSlots }});
-Object.defineProperty(__vite_ssr_exports__, "useTransitionState", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useTransitionState }});;
+Object.defineProperty(__vite_ssr_exports__, "useTransitionState", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_7__.useTransitionState }});
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/composables.mjs");
+
+Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_8__.definePageMeta }});;
 }
 
 
 // --------------------
-// Request: /node_modules/vue/server-renderer/index.js
+// Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
 // Parents: 
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
-// - /components/hive.vue ($id_8d839619)
-// - /app.vue ($id_2b46e842)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // Dependencies: 
 
 // --------------------
-const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/mail/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js")
-  .then(r => {
-    if (r.default && r.default.__esModule)
-      r = r.default
-    exports.default = r.default
-    ssrExportAll(r)
-  })
-  .catch(e => {
-    console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/mail/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js\".")
-  })
+const $id_ff6ed455 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const warnRuntimeUsage = (method) => console.warn(`${method}() is a compiler-hint helper that is only usable inside the script block of a single file component. Its arguments should be compiled away and passing it at runtime has no effect.`);
+const definePageMeta = (meta) => {
+  if (true) {
+    warnRuntimeUsage("definePageMeta");
+  }
+};
+Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true, configurable: true, get(){ return definePageMeta }});
+;
+}
 
 
 // --------------------
@@ -35376,45 +35851,18 @@ __vite_ssr_exports__.default = ".bg-white[data-v-573335c0]{--tw-bg-opacity:1;bac
 
 
 // --------------------
-// Request: /@id/plugin-vue:export-helper
-// Parents: 
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
-// - /components/hive.vue ($id_8d839619)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_bbb863c1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-__vite_ssr_exports__.default = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-}
-;
-}
-
-
-// --------------------
 // Request: /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css ($id_a2b3b709)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_14c8b574 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -35491,7 +35939,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"C:/Users/mail/dev/beeManagerFrontend/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"/home/oliver/dev/beeManagerFrontend/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -35512,14 +35960,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-0914425d]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_9a997424)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs ($id_cc36fd8a)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css ($id_2691164c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_bc2d74a1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -35602,7 +36050,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"C:/Users/mail/dev/beeManagerFrontend/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"/home/oliver/dev/beeManagerFrontend/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -35619,13 +36067,13 @@ __vite_ssr_exports__.default = ".bg-white[data-v-1da4697d]{--tw-bg-opacity:1;bac
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/app-component.mjs
 // Parents: 
-// - C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_e1a21666)
+// - /home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry ($id_2e86d42c)
 // Dependencies: 
 // - /app.vue ($id_2b46e842)
 // --------------------
-const $id_290f7361 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ec906849 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -35635,54 +36083,164 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /app.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/app-component.mjs ($id_290f7361)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/app-component.mjs ($id_ec906849)
 // Dependencies: 
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
-// - /components/hive.vue ($id_8d839619)
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_2b46e842 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/atoms/TheNavBar.vue");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/hive.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
 
 const _sfc_main = {}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_AtomsTheNavBar = __vite_ssr_import_0__.default
-  const _component_hive = __vite_ssr_import_1__.default
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_NuxtPage = __vite_ssr_import_1__.resolveComponent("NuxtPage")
 
-  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_AtomsTheNavBar, null, null, _parent))
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_hive, null, null, _parent))
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLayout, null, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtPage, null, null, _parent, _scopeId))
+      } else {
+        return [
+          __vite_ssr_import_1__.createVNode(_component_NuxtPage)
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
   _push(`</div>`)
 }
 
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("app.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/mail/dev/beeManagerFrontend/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/app.vue"]]);
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/components/layout.mjs
+// Parents: 
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
+// - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs ($id_0d715836)
+// --------------------
+const $id_39003883 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/utils.mjs");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs");
+
+const defaultLayoutTransition = { name: "layout", mode: "out-in" };
+__vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
+  props: {
+    name: {
+      type: [String, Boolean, Object],
+      default: null
+    }
+  },
+  setup(props, context) {
+    const route = __vite_ssr_import_2__.useRoute();
+    return () => {
+      const layout = (__vite_ssr_import_0__.isRef(props.name) ? props.name.value : props.name) ?? route.meta.layout ?? "default";
+      const hasLayout = layout && layout in __vite_ssr_import_3__.default;
+      if (true && layout && !hasLayout && layout !== "default") {
+        console.warn(`Invalid layout \`${layout}\` selected.`);
+      }
+      return __vite_ssr_import_1__._wrapIf(__vite_ssr_import_0__.Transition, hasLayout && (route.meta.layoutTransition ?? defaultLayoutTransition), __vite_ssr_import_1__._wrapIf(__vite_ssr_import_3__.default[layout], hasLayout, context.slots)).default();
+    };
+  }
+});
+;
+}
+
+
+// --------------------
+// Request: /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs
+// Parents: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /layouts/default.vue ($id_7689e89d)
+// --------------------
+const $id_0d715836 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+__vite_ssr_exports__.default = {
+  default: __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/layouts/default.vue'))
+};
+}
+
+
+// --------------------
+// Request: /layouts/default.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs ($id_0d715836)
+// Dependencies: 
+// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_7689e89d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/atoms/TheNavBar.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_AtomsTheNavBar = __vite_ssr_import_0__.default
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_AtomsTheNavBar, null, null, _parent))
+  __vite_ssr_import_2__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("layouts/default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/layouts/default.vue"]]);
 }
 
 
 // --------------------
 // Request: /components/atoms/TheNavBar.vue
 // Parents: 
-// - /app.vue ($id_2b46e842)
+// - /layouts/default.vue ($id_7689e89d)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -35690,6 +36248,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // --------------------
 const $id_b2a790cb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
 
 const _sfc_main = __vite_ssr_import_0__.defineComponent({
   setup() {
@@ -35700,21 +36259,22 @@ const _sfc_main = __vite_ssr_import_0__.defineComponent({
     group: null,
     items: [
       {
-        title: "Foo",
-        value: "foo",
+        disabled: true,
+        title: "Standorte",
+        value: "locations",
+        props: {
+          to: "/locations",
+        }
+        
       },
       {
-        title: "Bar",
-        value: "bar",
+        title: "Völker",
+        value: "Hives",
+        props: {
+          to: "/hives"
+        }
       },
-      {
-        title: "Fizz",
-        value: "fizz",
-      },
-      {
-        title: "Buzz",
-        value: "buzz",
-      },
+
     ],
   }),
 
@@ -35723,6 +36283,11 @@ const _sfc_main = __vite_ssr_import_0__.defineComponent({
       this.drawer = false;
     },
   },
+  methods: {
+    olliTest(value) {
+      console.log("BLUBB") + value
+    }}
+  
 });
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -35741,7 +36306,6 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_v_navigation_drawer = __vite_ssr_import_1__.resolveComponent("v-navigation-drawer")
   const _component_v_list = __vite_ssr_import_1__.resolveComponent("v-list")
   const _component_v_main = __vite_ssr_import_1__.resolveComponent("v-main")
-  const _component_v_card_text = __vite_ssr_import_1__.resolveComponent("v-card-text")
 
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_v_card, _attrs, {
     default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
@@ -35823,10 +36387,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
               }, {
                 default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
                   if (_push) {
-                    _push(__vite_ssr_import_2__.ssrRenderComponent(_component_v_list, { items: _ctx.items }, null, _parent, _scopeId))
+                    _push(__vite_ssr_import_2__.ssrRenderComponent(_component_v_list, {
+                      items: _ctx.items,
+                      nav: true
+                    }, null, _parent, _scopeId))
                   } else {
                     return [
-                      __vite_ssr_import_1__.createVNode(_component_v_list, { items: _ctx.items }, null, 8 /* PROPS */, ["items"])
+                      __vite_ssr_import_1__.createVNode(_component_v_list, {
+                        items: _ctx.items,
+                        nav: true
+                      }, null, 8 /* PROPS */, ["items"])
                     ]
                   }
                 }),
@@ -35835,26 +36405,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
               _push(__vite_ssr_import_2__.ssrRenderComponent(_component_v_main, null, {
                 default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
                   if (_push) {
-                    _push(__vite_ssr_import_2__.ssrRenderComponent(_component_v_card_text, null, {
-                      default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-                        if (_push) {
-                          _push(` The navigation drawer will appear from the bottom on smaller size screens. `)
-                        } else {
-                          return [
-                            __vite_ssr_import_1__.createTextVNode(" The navigation drawer will appear from the bottom on smaller size screens. ")
-                          ]
-                        }
-                      }),
-                      _: 1 /* STABLE */
-                    }, _parent, _scopeId))
+                    _push(`<!-- <v-card-text>
+          The navigation drawer will appear from the bottom on smaller size
+          screens.
+        </v-card-text> -->`)
                   } else {
                     return [
-                      __vite_ssr_import_1__.createVNode(_component_v_card_text, null, {
-                        default: __vite_ssr_import_1__.withCtx(() => [
-                          __vite_ssr_import_1__.createTextVNode(" The navigation drawer will appear from the bottom on smaller size screens. ")
-                        ]),
-                        _: 1 /* STABLE */
-                      })
+                      __vite_ssr_import_1__.createCommentVNode(" <v-card-text>\n          The navigation drawer will appear from the bottom on smaller size\n          screens.\n        </v-card-text> ")
                     ]
                   }
                 }),
@@ -35901,18 +36458,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                   temporary: ""
                 }, {
                   default: __vite_ssr_import_1__.withCtx(() => [
-                    __vite_ssr_import_1__.createVNode(_component_v_list, { items: _ctx.items }, null, 8 /* PROPS */, ["items"])
+                    __vite_ssr_import_1__.createVNode(_component_v_list, {
+                      items: _ctx.items,
+                      nav: true
+                    }, null, 8 /* PROPS */, ["items"])
                   ]),
                   _: 1 /* STABLE */
                 }, 8 /* PROPS */, ["modelValue", "onUpdate:modelValue"]),
                 __vite_ssr_import_1__.createVNode(_component_v_main, null, {
                   default: __vite_ssr_import_1__.withCtx(() => [
-                    __vite_ssr_import_1__.createVNode(_component_v_card_text, null, {
-                      default: __vite_ssr_import_1__.withCtx(() => [
-                        __vite_ssr_import_1__.createTextVNode(" The navigation drawer will appear from the bottom on smaller size screens. ")
-                      ]),
-                      _: 1 /* STABLE */
-                    })
+                    __vite_ssr_import_1__.createCommentVNode(" <v-card-text>\n          The navigation drawer will appear from the bottom on smaller size\n          screens.\n        </v-card-text> ")
                   ]),
                   _: 1 /* STABLE */
                 })
@@ -35964,18 +36519,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                 temporary: ""
               }, {
                 default: __vite_ssr_import_1__.withCtx(() => [
-                  __vite_ssr_import_1__.createVNode(_component_v_list, { items: _ctx.items }, null, 8 /* PROPS */, ["items"])
+                  __vite_ssr_import_1__.createVNode(_component_v_list, {
+                    items: _ctx.items,
+                    nav: true
+                  }, null, 8 /* PROPS */, ["items"])
                 ]),
                 _: 1 /* STABLE */
               }, 8 /* PROPS */, ["modelValue", "onUpdate:modelValue"]),
               __vite_ssr_import_1__.createVNode(_component_v_main, null, {
                 default: __vite_ssr_import_1__.withCtx(() => [
-                  __vite_ssr_import_1__.createVNode(_component_v_card_text, null, {
-                    default: __vite_ssr_import_1__.withCtx(() => [
-                      __vite_ssr_import_1__.createTextVNode(" The navigation drawer will appear from the bottom on smaller size screens. ")
-                    ]),
-                    _: 1 /* STABLE */
-                  })
+                  __vite_ssr_import_1__.createCommentVNode(" <v-card-text>\n          The navigation drawer will appear from the bottom on smaller size\n          screens.\n        </v-card-text> ")
                 ]),
                 _: 1 /* STABLE */
               })
@@ -36000,104 +36553,15 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/mail/dev/beeManagerFrontend/components/atoms/TheNavBar.vue"]]);
-}
-
-
-// --------------------
-// Request: /components/hive.vue
-// Parents: 
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /store/hives.js ($id_01e486f6)
-// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /@id/plugin-vue:export-helper ($id_bbb863c1)
-// --------------------
-const $id_8d839619 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/store/hives.js");
-
-
-const _sfc_main = __vite_ssr_import_0__.defineComponent({
-  setup() {
-    const hiveStore = __vite_ssr_import_1__.useHiveStore();
-    hiveStore.fetchHives();
-    // console.log(hiveStore);
-
-    return { hiveStore };
-  },
-});
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${
-    __vite_ssr_import_2__.ssrRenderAttrs(_attrs)
-  }>Anzahl Bienenvölker: ${
-    __vite_ssr_import_2__.ssrInterpolate(_ctx.hiveStore.hiveList.length)
-  }</div>`)
-}
-
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/hive.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/mail/dev/beeManagerFrontend/components/hive.vue"]]);
-}
-
-
-// --------------------
-// Request: /store/hives.js
-// Parents: 
-// - /components/hive.vue ($id_8d839619)
-// Dependencies: 
-// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
-// --------------------
-const $id_01e486f6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
-
-
-const useHiveStore = __vite_ssr_import_0__.defineStore({
-  id: 'hive-store',
-  state: () => {
-    return {
-      hiveList: [],
-    }
-  },
-  actions: {
-      async fetchHives() {
-        // First empty the array...
-        this.hiveList = []
-        fetch("http://localhost:5000/api/v1/hives")
-          .then((response) => response.json())
-          .then(({ data }) => (this.hiveList = data))
-          .catch((error) => console.log(error));
-    }
-  },
-  getters: {
-     getHiveList: state => state.hiveList.data,
-  },
-})
-Object.defineProperty(__vite_ssr_exports__, "useHiveStore", { enumerable: true, configurable: true, get(){ return useHiveStore }});
-;
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/atoms/TheNavBar.vue"]]);
 }
 
 
 const __modules__ = {
-  "C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry": $id_e1a21666,
+  "/home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry": $id_2e86d42c,
   "/node_modules/vue/dist/vue.cjs.js": $id_60f0615f,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/paths.mjs": $id_543b474c,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/paths.mjs": $id_24d38faf,
   "/node_modules/ufo/dist/index.mjs": $id_614de060,
   "/node_modules/nuxt/dist/app/index.mjs": $id_36927477,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_e069d411,
@@ -36126,23 +36590,37 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_b7351483,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_04ea9504,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_852b06a2,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/css.mjs": $id_f6a1ed72,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/css.mjs": $id_b72ab17b,
   "/node_modules/vuetify/lib/styles/main.sass": $id_7fc1a351,
   "/node_modules/@mdi/font/css/materialdesignicons.css": $id_84361c33,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/plugins/server.mjs": $id_77b92261,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/plugins/server.mjs": $id_32118552,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_9871bba0,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/components.plugin.mjs": $id_37336772,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/components.plugin.mjs": $id_80a47182,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_e6f12003,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_c032264e,
   "/node_modules/nuxt/node_modules/defu/dist/defu.mjs": $id_bafd87f1,
   "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_a2650341,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_b2a29d6f,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/meta.config.mjs": $id_88c6ad8d,
-  "/node_modules/nuxt/dist/app/plugins/router.mjs": $id_7fe121f6,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/dist.plugin.6f0a008b.mjs": $id_7d1649c7,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/meta.config.mjs": $id_0474feb6,
+  "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_a090977b,
+  "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_5fc14cdc,
+  "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
+  "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs": $id_23f0431e,
+  "/pages/hives.vue?macro=true": $id_fe14319f,
+  "/components/hive.vue": $id_8d839619,
+  "/store/hives.js": $id_01e486f6,
+  "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
+  "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
+  "/@id/plugin-vue:export-helper": $id_bbb863c1,
+  "/pages/index.vue?macro=true": $id_5dd70240,
+  "/pages/hives.vue": $id_ecc04379,
+  "/pages/index.vue": $id_cca58e97,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/router.options.mjs": $id_0811f5fe,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/middleware.mjs": $id_b2d7d188,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs": $id_15c15290,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
-  "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
   "/plugins/vuetify.js": $id_5f787637,
   "/node_modules/vuetify/lib/framework.mjs": $id_2c665a6c,
   "/node_modules/vuetify/lib/composables/defaults.mjs": $id_66a5cfcd,
@@ -36554,24 +37032,24 @@ const __modules__ = {
   "/node_modules/vuetify/lib/directives/mutate/index.mjs": $id_b6d222eb,
   "/node_modules/vuetify/lib/directives/resize/index.mjs": $id_29e78830,
   "/node_modules/vuetify/lib/directives/scroll/index.mjs": $id_bf30de3d,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/root-component.mjs": $id_003efb55,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/root-component.mjs": $id_5b57ef01,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_e9bfada3,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/error-component.mjs": $id_a32074ca,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/error-component.mjs": $id_b89b52a4,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_8cc6d73f,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_b90d4d0f,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/imports.mjs": $id_9a997424,
-  "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/imports.mjs": $id_cc36fd8a,
+  "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css": $id_e68b6b38,
-  "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_14c8b574,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_a2b3b709,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_bc2d74a1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
-  "/@id/virtual:nuxt:C:/Users/mail/dev/beeManagerFrontend/.nuxt/app-component.mjs": $id_290f7361,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/app-component.mjs": $id_ec906849,
   "/app.vue": $id_2b46e842,
-  "/components/atoms/TheNavBar.vue": $id_b2a790cb,
-  "/components/hive.vue": $id_8d839619,
-  "/store/hives.js": $id_01e486f6
+  "/node_modules/nuxt/dist/app/components/layout.mjs": $id_39003883,
+  "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs": $id_0d715836,
+  "/layouts/default.vue": $id_7689e89d,
+  "/components/atoms/TheNavBar.vue": $id_b2a790cb
 }
 
 
@@ -36659,4 +37137,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("C:/Users/mail/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("/home/oliver/dev/beeManagerFrontend/node_modules/nuxt/dist/app/entry")

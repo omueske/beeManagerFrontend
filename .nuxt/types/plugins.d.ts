@@ -9,8 +9,8 @@ type NuxtAppInjections =
   InjectionType<typeof import("../components.plugin").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/head/runtime/plugin").default> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/router").default> &
-  InjectionType<typeof import("../dist.plugin.6f0a008b").default> &
+  InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/router").default> &
+  InjectionType<typeof import("../dist.plugin.4a2440ec").default> &
   InjectionType<typeof import("../../plugins/vuetify").default>
 
 declare module '#app' {
