@@ -1,6 +1,6 @@
 <template>
   <div>
-        <AtomsTheNavBar />
+        <TheNavBar />
         <slot />
   </div>
 </template>

@@ -112,11 +112,16 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_80f433aa)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
+// - /components/theHeader.vue ($id_36515f67)
 // - /components/hive.vue ($id_8d839619)
 // - /pages/hives.vue?macro=true ($id_fe14319f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /components/newLocation.vue ($id_44a337be)
+// - /components/location.vue ($id_a4c810b5)
+// - /pages/locations.vue?macro=true ($id_4140241a)
 // - /pages/hives.vue ($id_ecc04379)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/locations.vue ($id_6bf9a3d0)
 // - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs ($id_15c15290)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /node_modules/vuetify/lib/composables/defaults.mjs ($id_66a5cfcd)
@@ -286,7 +291,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs ($id_0d715836)
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
+// - /components/TheNavBar.vue ($id_fec8b8f5)
 // - /layouts/default.vue ($id_7689e89d)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
@@ -2866,13 +2871,17 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // Dependencies: 
 // - /pages/hives.vue?macro=true ($id_fe14319f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/locations.vue?macro=true ($id_4140241a)
 // - /pages/hives.vue ($id_ecc04379)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/locations.vue ($id_6bf9a3d0)
 // --------------------
 const $id_23f0431e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/hives.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/locations.vue?macro=true");
 
 __vite_ssr_exports__.default = [
   {
@@ -2892,6 +2901,15 @@ __vite_ssr_exports__.default = [
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
+  },
+  {
+    name: "locations",
+    path: "/locations",
+    file: "/home/oliver/dev/beeManagerFrontend/pages/locations.vue",
+    children: [],
+    meta: __vite_ssr_import_2__.meta,
+    alias: __vite_ssr_import_2__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/locations.vue')
   }
 ];
 }
@@ -2902,42 +2920,172 @@ __vite_ssr_exports__.default = [
 // Parents: 
 // - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
 // Dependencies: 
+// - /components/theHeader.vue ($id_36515f67)
 // - /components/hive.vue ($id_8d839619)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_fe14319f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/hive.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/theHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/hive.vue");
 
 const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_hive = __vite_ssr_import_0__.default
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_hive = __vite_ssr_import_1__.default
 
-  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_hive, null, null, _parent))
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, { title: "Völker" }, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_hive, null, null, _parent))
   _push(`</div>`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/hives.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/hives.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/hives.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/theHeader.vue
+// Parents: 
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/locations.vue?macro=true ($id_4140241a)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/locations.vue ($id_6bf9a3d0)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_36515f67 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_main = __vite_ssr_import_0__.defineComponent({
+  setup() {
+    return { test: "test" };
+  },
+  props: {
+    title: String
+  }
+});
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<h1${
+    __vite_ssr_import_1__.ssrRenderAttrs(_attrs)
+  }>${
+    __vite_ssr_import_1__.ssrInterpolate(_ctx.title)
+  }</h1>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/theHeader.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/theHeader.vue"]]);
+}
+
+
+// --------------------
+// Request: /node_modules/vue/server-renderer/index.js
+// Parents: 
+// - /components/theHeader.vue ($id_36515f67)
+// - /components/hive.vue ($id_8d839619)
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /components/newLocation.vue ($id_44a337be)
+// - /components/location.vue ($id_a4c810b5)
+// - /pages/locations.vue?macro=true ($id_4140241a)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/locations.vue ($id_6bf9a3d0)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
+// - /components/TheNavBar.vue ($id_fec8b8f5)
+// - /layouts/default.vue ($id_7689e89d)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///home/oliver/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js\".")
+  })
+
+
+// --------------------
+// Request: /@id/plugin-vue:export-helper
+// Parents: 
+// - /components/theHeader.vue ($id_36515f67)
+// - /components/hive.vue ($id_8d839619)
+// - /pages/hives.vue?macro=true ($id_fe14319f)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /components/newLocation.vue ($id_44a337be)
+// - /components/location.vue ($id_a4c810b5)
+// - /pages/locations.vue?macro=true ($id_4140241a)
+// - /pages/hives.vue ($id_ecc04379)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/locations.vue ($id_6bf9a3d0)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
+// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
+// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
+// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
+// - /components/TheNavBar.vue ($id_fec8b8f5)
+// - /layouts/default.vue ($id_7689e89d)
+// - /app.vue ($id_2b46e842)
+// Dependencies: 
+
+// --------------------
+const $id_bbb863c1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+__vite_ssr_exports__.default = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+}
+;
 }
 
 
@@ -3035,6 +3183,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHiveStore", { enumerable: true, 
 // Request: /node_modules/pinia/dist/pinia.mjs
 // Parents: 
 // - /store/hives.js ($id_01e486f6)
+// - /store/locations.js ($id_cc044b9c)
 // - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs ($id_15c15290)
 // Dependencies: 
 
@@ -3051,71 +3200,6 @@ import("file:///home/oliver/dev/beeManagerFrontend/node_modules/pinia/dist/pinia
     console.error(e)
     throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/pinia/dist/pinia.mjs\".")
   })
-
-
-// --------------------
-// Request: /node_modules/vue/server-renderer/index.js
-// Parents: 
-// - /components/hive.vue ($id_8d839619)
-// - /pages/hives.vue?macro=true ($id_fe14319f)
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/hives.vue ($id_ecc04379)
-// - /pages/index.vue ($id_cca58e97)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
-// - /layouts/default.vue ($id_7689e89d)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///home/oliver/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js")
-  .then(r => {
-    if (r.default && r.default.__esModule)
-      r = r.default
-    exports.default = r.default
-    ssrExportAll(r)
-  })
-  .catch(e => {
-    console.error(e)
-    throw new Error("[vite dev] Error loading external \"/home/oliver/dev/beeManagerFrontend/node_modules/vue/server-renderer/index.js\".")
-  })
-
-
-// --------------------
-// Request: /@id/plugin-vue:export-helper
-// Parents: 
-// - /components/hive.vue ($id_8d839619)
-// - /pages/hives.vue?macro=true ($id_fe14319f)
-// - /pages/index.vue?macro=true ($id_5dd70240)
-// - /pages/hives.vue ($id_ecc04379)
-// - /pages/index.vue ($id_cca58e97)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
-// - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
-// - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
-// - /layouts/default.vue ($id_7689e89d)
-// - /app.vue ($id_2b46e842)
-// Dependencies: 
-
-// --------------------
-const $id_bbb863c1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-__vite_ssr_exports__.default = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-}
-;
-}
 
 
 // --------------------
@@ -3154,44 +3238,560 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 
 // --------------------
+// Request: /pages/locations.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// Dependencies: 
+// - /components/theHeader.vue ($id_36515f67)
+// - /components/location.vue ($id_a4c810b5)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /store/locations.js ($id_cc044b9c)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_4140241a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/theHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/location.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/store/locations.js");
+
+
+const _sfc_main = __vite_ssr_import_2__.defineComponent({
+  setup() {
+    const locationStore = __vite_ssr_import_3__.useLocationStore();
+    locationStore.fetchLocations();
+
+    return { locationStore };
+  },
+  data: () => ({
+    showNewLocation: false,
+  }),
+  
+  methods: {
+    toggleShowNewLocation () {
+      this.showNewLocation = !this.showNewLocation
+    }
+  },
+});
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_location = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_TheHeader, { title: "Standorte" }, null, _parent))
+  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_location, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_6__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/locations.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/locations.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/location.vue
+// Parents: 
+// - /pages/locations.vue?macro=true ($id_4140241a)
+// - /pages/locations.vue ($id_6bf9a3d0)
+// Dependencies: 
+// - /components/newLocation.vue ($id_44a337be)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /store/locations.js ($id_cc044b9c)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_a4c810b5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/newLocation.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/store/locations.js");
+
+
+const _sfc_main = __vite_ssr_import_1__.defineComponent({
+  setup() {
+    const locationStore = __vite_ssr_import_2__.useLocationStore();
+    locationStore.fetchLocations();
+
+    return { locationStore };
+  },
+  data: () => ({
+    showNewLocation: false,
+  }),
+  
+  methods: {
+    toggleShowNewLocation () {
+      this.showNewLocation = !this.showNewLocation
+    }
+  },
+});
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_v_btn = __vite_ssr_import_3__.resolveComponent("v-btn")
+  const _component_NewLocation = __vite_ssr_import_0__.default
+  const _component_v_table = __vite_ssr_import_3__.resolveComponent("v-table")
+
+  _push(`<!--[--><div>Anzahl Locations: ${__vite_ssr_import_4__.ssrInterpolate(_ctx.locationStore.locationList.length)}</div>`)
+  if (!_ctx.showNewLocation) {
+    _push(__vite_ssr_import_4__.ssrRenderComponent(_component_v_btn, {
+      onClick: $event => (_ctx.toggleShowNewLocation())
+    }, {
+      default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+        if (_push) {
+          _push(`Neuer Standort`)
+        } else {
+          return [
+            __vite_ssr_import_3__.createTextVNode("Neuer Standort")
+          ]
+        }
+      }),
+      _: 1 /* STABLE */
+    }, _parent))
+  } else {
+    _push(`<!---->`)
+  }
+  if (_ctx.showNewLocation) {
+    _push(__vite_ssr_import_4__.ssrRenderComponent(_component_v_btn, {
+      onClick: $event => (_ctx.toggleShowNewLocation()),
+      color: "error"
+    }, {
+      default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+        if (_push) {
+          _push(`Abbrechen`)
+        } else {
+          return [
+            __vite_ssr_import_3__.createTextVNode("Abbrechen")
+          ]
+        }
+      }),
+      _: 1 /* STABLE */
+    }, _parent))
+  } else {
+    _push(`<!---->`)
+  }
+  if (_ctx.showNewLocation) {
+    _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NewLocation, null, null, _parent))
+  } else {
+    _push(`<!---->`)
+  }
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_v_table, null, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<thead${
+          _scopeId
+        }><tr${
+          _scopeId
+        }><th class="text-left"${
+          _scopeId
+        }> Name </th><th class="text-left"${
+          _scopeId
+        }> Längengrad </th><th class="text-left"${
+          _scopeId
+        }> Breitengrad </th><th class="text-left"${
+          _scopeId
+        }> Kommentar </th><th class="text-left"${
+          _scopeId
+        }> Aktions </th></tr></thead><tbody${
+          _scopeId
+        }><!--[-->`)
+        __vite_ssr_import_4__.ssrRenderList(_ctx.locationStore.locationList, (item) => {
+          _push(`<tr${
+            _scopeId
+          }><td${
+            _scopeId
+          }>${
+            __vite_ssr_import_4__.ssrInterpolate(item.name)
+          }</td><td${
+            _scopeId
+          }>${
+            __vite_ssr_import_4__.ssrInterpolate(item.longitude)
+          }</td><td${
+            _scopeId
+          }>${
+            __vite_ssr_import_4__.ssrInterpolate(item.latitude)
+          }</td><td${
+            _scopeId
+          }>${
+            __vite_ssr_import_4__.ssrInterpolate(item.comment)
+          }</td><td${
+            _scopeId
+          }>`)
+          _push(__vite_ssr_import_4__.ssrRenderComponent(_component_v_btn, {
+            icon: "mdi-pencil",
+            color: "secondary"
+          }, null, _parent, _scopeId))
+          _push(__vite_ssr_import_4__.ssrRenderComponent(_component_v_btn, {
+            icon: "mdi-delete",
+            color: "red"
+          }, null, _parent, _scopeId))
+          _push(`</td></tr>`)
+        })
+        _push(`<!--]--></tbody>`)
+      } else {
+        return [
+          __vite_ssr_import_3__.createVNode("thead", null, [
+            __vite_ssr_import_3__.createVNode("tr", null, [
+              __vite_ssr_import_3__.createVNode("th", { class: "text-left" }, " Name "),
+              __vite_ssr_import_3__.createVNode("th", { class: "text-left" }, " Längengrad "),
+              __vite_ssr_import_3__.createVNode("th", { class: "text-left" }, " Breitengrad "),
+              __vite_ssr_import_3__.createVNode("th", { class: "text-left" }, " Kommentar "),
+              __vite_ssr_import_3__.createVNode("th", { class: "text-left" }, " Aktions ")
+            ])
+          ]),
+          __vite_ssr_import_3__.createVNode("tbody", null, [
+            (__vite_ssr_import_3__.openBlock(true), __vite_ssr_import_3__.createBlock(__vite_ssr_import_3__.Fragment, null, __vite_ssr_import_3__.renderList(_ctx.locationStore.locationList, (item) => {
+              return (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock("tr", {
+                key: item.name
+              }, [
+                __vite_ssr_import_3__.createVNode("td", null, __vite_ssr_import_3__.toDisplayString(item.name), 1 /* TEXT */),
+                __vite_ssr_import_3__.createVNode("td", null, __vite_ssr_import_3__.toDisplayString(item.longitude), 1 /* TEXT */),
+                __vite_ssr_import_3__.createVNode("td", null, __vite_ssr_import_3__.toDisplayString(item.latitude), 1 /* TEXT */),
+                __vite_ssr_import_3__.createVNode("td", null, __vite_ssr_import_3__.toDisplayString(item.comment), 1 /* TEXT */),
+                __vite_ssr_import_3__.createVNode("td", null, [
+                  __vite_ssr_import_3__.createVNode(_component_v_btn, {
+                    icon: "mdi-pencil",
+                    color: "secondary"
+                  }),
+                  __vite_ssr_import_3__.createVNode(_component_v_btn, {
+                    icon: "mdi-delete",
+                    color: "red"
+                  })
+                ])
+              ]))
+            }), 128 /* KEYED_FRAGMENT */))
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(`<div>${__vite_ssr_import_4__.ssrInterpolate(_ctx.locationStore.locationList)}</div><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/location.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/location.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/newLocation.vue
+// Parents: 
+// - /components/location.vue ($id_a4c810b5)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /store/locations.js ($id_cc044b9c)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_44a337be = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/store/locations.js");
+
+
+const _sfc_main = __vite_ssr_import_0__.defineComponent({
+  setup() {
+    const locationStore = __vite_ssr_import_1__.useLocationStore();
+    locationStore.fetchLocations();
+
+    return { locationStore };
+  },
+  data: () => ({
+    valid: true,
+    location: {
+        name: '',
+        latitude: '',
+        longitude: '',
+        comment: ''
+    },
+    nameRules: [
+        v => !!v || 'Name wird benötigt',
+       // v => (v && v.length <= 10) || 'Name must be less than 10 characters',
+      ],
+    }),
+
+    methods: {
+      validate () {
+        this.$refs.form.validate()
+      },
+      reset () {
+        this.$refs.form.reset()
+      },
+      resetValidation () {
+        this.$refs.form.resetValidation()
+      },
+      //...mapActions(useLocationStore, ['save']),
+      save () {
+        console.log(this.location)
+        //locationStore.save(location)
+        this.locationStore.storeLocation(this.location)
+        this.reset()
+      }
+    },
+});
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_v_form = __vite_ssr_import_2__.resolveComponent("v-form")
+  const _component_v_text_field = __vite_ssr_import_2__.resolveComponent("v-text-field")
+  const _component_v_btn = __vite_ssr_import_2__.resolveComponent("v-btn")
+
+  _push(`<!--[-->`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_v_form, {
+    ref: "form",
+    modelValue: _ctx.valid,
+    "onUpdate:modelValue": $event => ((_ctx.valid) = $event),
+    "lazy-validation": ""
+  }, {
+    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_v_text_field, {
+          modelValue: _ctx.location.name,
+          "onUpdate:modelValue": $event => ((_ctx.location.name) = $event),
+          counter: 10,
+          rules: _ctx.nameRules,
+          label: "Name",
+          required: ""
+        }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_v_text_field, {
+          modelValue: _ctx.location.longitude,
+          "onUpdate:modelValue": $event => ((_ctx.location.longitude) = $event),
+          label: "Längengrad",
+          required: ""
+        }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_v_text_field, {
+          modelValue: _ctx.location.latitude,
+          "onUpdate:modelValue": $event => ((_ctx.location.latitude) = $event),
+          label: "Breitengrad",
+          required: ""
+        }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_v_text_field, {
+          modelValue: _ctx.location.comment,
+          "onUpdate:modelValue": $event => ((_ctx.location.comment) = $event),
+          label: "Kommentar",
+          required: ""
+        }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_v_btn, {
+          disabled: !_ctx.valid,
+          color: "success",
+          class: "mr-4",
+          onClick: $event => (_ctx.save())
+        }, {
+          default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Speichern `)
+            } else {
+              return [
+                __vite_ssr_import_2__.createTextVNode(" Speichern ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+      } else {
+        return [
+          __vite_ssr_import_2__.createVNode(_component_v_text_field, {
+            modelValue: _ctx.location.name,
+            "onUpdate:modelValue": $event => ((_ctx.location.name) = $event),
+            counter: 10,
+            rules: _ctx.nameRules,
+            label: "Name",
+            required: ""
+          }, null, 8 /* PROPS */, ["modelValue", "onUpdate:modelValue", "rules"]),
+          __vite_ssr_import_2__.createVNode(_component_v_text_field, {
+            modelValue: _ctx.location.longitude,
+            "onUpdate:modelValue": $event => ((_ctx.location.longitude) = $event),
+            label: "Längengrad",
+            required: ""
+          }, null, 8 /* PROPS */, ["modelValue", "onUpdate:modelValue"]),
+          __vite_ssr_import_2__.createVNode(_component_v_text_field, {
+            modelValue: _ctx.location.latitude,
+            "onUpdate:modelValue": $event => ((_ctx.location.latitude) = $event),
+            label: "Breitengrad",
+            required: ""
+          }, null, 8 /* PROPS */, ["modelValue", "onUpdate:modelValue"]),
+          __vite_ssr_import_2__.createVNode(_component_v_text_field, {
+            modelValue: _ctx.location.comment,
+            "onUpdate:modelValue": $event => ((_ctx.location.comment) = $event),
+            label: "Kommentar",
+            required: ""
+          }, null, 8 /* PROPS */, ["modelValue", "onUpdate:modelValue"]),
+          __vite_ssr_import_2__.createVNode(_component_v_btn, {
+            disabled: !_ctx.valid,
+            color: "success",
+            class: "mr-4",
+            onClick: $event => (_ctx.save())
+          }, {
+            default: __vite_ssr_import_2__.withCtx(() => [
+              __vite_ssr_import_2__.createTextVNode(" Speichern ")
+            ]),
+            _: 1 /* STABLE */
+          }, 8 /* PROPS */, ["disabled", "onClick"])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(` ${__vite_ssr_import_3__.ssrInterpolate(_ctx.location)}<!--]-->`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/newLocation.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/newLocation.vue"]]);
+}
+
+
+// --------------------
+// Request: /store/locations.js
+// Parents: 
+// - /components/newLocation.vue ($id_44a337be)
+// - /components/location.vue ($id_a4c810b5)
+// - /pages/locations.vue?macro=true ($id_4140241a)
+// - /pages/locations.vue ($id_6bf9a3d0)
+// Dependencies: 
+// - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
+// --------------------
+const $id_cc044b9c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/pinia/dist/pinia.mjs");
+
+
+const useLocationStore = __vite_ssr_import_0__.defineStore({
+  id: 'location-store',
+  state: () => {
+    return {
+      locationList: [],
+    }
+  },
+  actions: {
+    async fetchLocations() {
+      // First empty the array...
+      this.locationList = []
+      fetch("http://localhost:5000/api/v1/locations")
+        .then((response) => response.json())
+        .then(({ data }) => (this.locationList = data))
+        .catch((error) => console.log(error));
+    },
+    async storeLocation(location) {
+      console.log("Location", location)
+      console.log(JSON.parse(JSON.stringify(location)))
+      console.log("Location", location)
+      fetch("http://localhost:5000/api/v1/locations", {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(location)
+      })
+        .then((response) => response.json())
+        .then(({ data }) => (this.locationList.push(data)))
+        .catch((error) => console.log(error));
+
+     
+    }
+  },
+  getters: {
+     getHiveList: state => state.locationList.data,
+  },
+})
+Object.defineProperty(__vite_ssr_exports__, "useLocationStore", { enumerable: true, configurable: true, get(){ return useLocationStore }});
+;
+}
+
+
+// --------------------
 // Request: /pages/hives.vue
 // Parents: 
 // - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
 // Dependencies: 
+// - /components/theHeader.vue ($id_36515f67)
 // - /components/hive.vue ($id_8d839619)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_ecc04379 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/hive.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/theHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/hive.vue");
 
 const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_hive = __vite_ssr_import_0__.default
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_hive = __vite_ssr_import_1__.default
 
-  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_hive, null, null, _parent))
+  _push(`<div${__vite_ssr_import_3__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, { title: "Völker" }, null, _parent))
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_hive, null, null, _parent))
   _push(`</div>`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/hives.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/hives.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/hives.vue"]]);
 }
 
 
@@ -3225,6 +3825,76 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/locations.vue
+// Parents: 
+// - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs ($id_23f0431e)
+// Dependencies: 
+// - /components/theHeader.vue ($id_36515f67)
+// - /components/location.vue ($id_a4c810b5)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /store/locations.js ($id_cc044b9c)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6bf9a3d0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/theHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/location.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/store/locations.js");
+
+
+const _sfc_main = __vite_ssr_import_2__.defineComponent({
+  setup() {
+    const locationStore = __vite_ssr_import_3__.useLocationStore();
+    locationStore.fetchLocations();
+
+    return { locationStore };
+  },
+  data: () => ({
+    showNewLocation: false,
+  }),
+  
+  methods: {
+    toggleShowNewLocation () {
+      this.showNewLocation = !this.showNewLocation
+    }
+  },
+});
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_location = __vite_ssr_import_1__.default
+
+  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(_attrs)}>`)
+  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_TheHeader, { title: "Standorte" }, null, _parent))
+  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_location, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_6__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/locations.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/pages/locations.vue"]]);
 }
 
 
@@ -36199,13 +36869,13 @@ __vite_ssr_exports__.default = {
 // Parents: 
 // - /@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs ($id_0d715836)
 // Dependencies: 
-// - /components/atoms/TheNavBar.vue ($id_b2a790cb)
+// - /components/TheNavBar.vue ($id_fec8b8f5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_7689e89d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/atoms/TheNavBar.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheNavBar.vue");
 
 const _sfc_main = {}
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -36214,10 +36884,10 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_AtomsTheNavBar = __vite_ssr_import_0__.default
+  const _component_TheNavBar = __vite_ssr_import_0__.default
 
   _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_AtomsTheNavBar, null, null, _parent))
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_TheNavBar, null, null, _parent))
   __vite_ssr_import_2__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
   _push(`</div>`)
 }
@@ -36238,7 +36908,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 
 
 // --------------------
-// Request: /components/atoms/TheNavBar.vue
+// Request: /components/TheNavBar.vue
 // Parents: 
 // - /layouts/default.vue ($id_7689e89d)
 // Dependencies: 
@@ -36246,7 +36916,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
-const $id_b2a790cb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fec8b8f5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -36548,12 +37218,12 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/atoms/TheNavBar.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheNavBar.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/atoms/TheNavBar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/oliver/dev/beeManagerFrontend/components/TheNavBar.vue"]]);
 }
 
 
@@ -36608,14 +37278,20 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
   "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/routes.mjs": $id_23f0431e,
   "/pages/hives.vue?macro=true": $id_fe14319f,
+  "/components/theHeader.vue": $id_36515f67,
+  "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
+  "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/components/hive.vue": $id_8d839619,
   "/store/hives.js": $id_01e486f6,
   "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
-  "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
-  "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/pages/index.vue?macro=true": $id_5dd70240,
+  "/pages/locations.vue?macro=true": $id_4140241a,
+  "/components/location.vue": $id_a4c810b5,
+  "/components/newLocation.vue": $id_44a337be,
+  "/store/locations.js": $id_cc044b9c,
   "/pages/hives.vue": $id_ecc04379,
   "/pages/index.vue": $id_cca58e97,
+  "/pages/locations.vue": $id_6bf9a3d0,
   "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/router.options.mjs": $id_0811f5fe,
   "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/middleware.mjs": $id_b2d7d188,
   "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/dist.plugin.4a2440ec.mjs": $id_15c15290,
@@ -37049,7 +37725,7 @@ const __modules__ = {
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_39003883,
   "/@id/virtual:nuxt:/home/oliver/dev/beeManagerFrontend/.nuxt/layouts.mjs": $id_0d715836,
   "/layouts/default.vue": $id_7689e89d,
-  "/components/atoms/TheNavBar.vue": $id_b2a790cb
+  "/components/TheNavBar.vue": $id_fec8b8f5
 }
 
 
